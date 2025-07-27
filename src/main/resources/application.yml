@@ -1,0 +1,7 @@
+kafka:
+  bootstrap-servers: "localhost:9092"
+  group-id: ""
+  consumer:
+    read-topic: "git-events"
+  producer:
+    send-topic: "notifications"
